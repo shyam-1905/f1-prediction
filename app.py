@@ -4,6 +4,7 @@ import pickle
 import logging
 from flask_cors import CORS
 app = Flask(__name__)
+CORS(app)
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
