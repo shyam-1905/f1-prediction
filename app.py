@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import pandas as pd
 import pickle
 import logging
-
+from flask_cors import CORS
 app = Flask(__name__)
 
 # Configure logging
