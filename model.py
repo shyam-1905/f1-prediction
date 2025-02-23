@@ -72,7 +72,7 @@ def evaluate_model(model, xtest, ytest):
 
 # Train and save the model
 if __name__ == "__main__":
-    X, y = read_data("sample_race_data.csv")
+    X, y = read_data("data.csv")
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
 
     # Train model
